@@ -1,0 +1,8 @@
+package "streamapp"
+version "1.0"
+
+description "StreamApp simulates a multi core system with limited per core and overall bandwidth."
+
+option "b-serial" b "maximal bandwidth of single core" double default="14.0" optional
+option "b-max"    B "maximal combined bandwidth of all cores" double default="180.0" optional
+option "t-serial" t "serial execution time of the program in seconds" double default="1.0" optional

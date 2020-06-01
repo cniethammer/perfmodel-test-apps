@@ -1,0 +1,5 @@
+package "amdahlapp"
+version "1.0"
+
+option "f-serial" f "serial fraction as defined in Amahls law" double default="0.0" optional
+option "t-serial" t "serial execution time of the program in seconds" double default="1.0" optional
